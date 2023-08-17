@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "392048897844",
+    "project_id": "android-task-e3b88",
+    "storage_bucket": "android-task-e3b88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392048897844:android:e3e1061fc411ed4e9eff61",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392048897844-cbinai7b9th35rb5fdcd2pt3r7abutbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZmH6wuvKMp6rIvx5laIfr5uqL5Mj76A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392048897844-cbinai7b9th35rb5fdcd2pt3r7abutbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392048897844:android:1c17fb75110aa4709eff61",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392048897844-cbinai7b9th35rb5fdcd2pt3r7abutbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZmH6wuvKMp6rIvx5laIfr5uqL5Mj76A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392048897844-cbinai7b9th35rb5fdcd2pt3r7abutbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392048897844:android:f518c50519136bae9eff61",
+        "android_client_info": {
+          "package_name": "com.example.test_googlemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392048897844-cbinai7b9th35rb5fdcd2pt3r7abutbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZmH6wuvKMp6rIvx5laIfr5uqL5Mj76A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392048897844-cbinai7b9th35rb5fdcd2pt3r7abutbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
