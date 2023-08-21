@@ -35,5 +35,15 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }
+        val btn_translate = findViewById<Button>(R.id.btn_translate)
+        btn_translate.setOnClickListener {
+            val intent = Intent(this, TranslateActivity::class.java)
+            startActivity(intent)
+        }
+        val btn_maps = findViewById<Button>(R.id.btn_maps)
+        btn_maps.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
