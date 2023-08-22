@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FireBaseAuthentication</string>
+    <string name="google_map_api_key">AIzaSyAujNEvqM738ndgeYynoiuAX1nCUDDfrmc</string>
 </resources>
