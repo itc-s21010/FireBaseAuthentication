@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         progressDialog.show()
         firebaseAuth.signInWithEmailAndPassword(email, password)
             .addOnSuccessListener {
-                startActivity(Intent(this, ProfileActivity::class.java))
+                startActivity(Intent(this, MapsActivity::class.java))
             }
             .addOnFailureListener { error ->
                 Toast.makeText(this, error.localizedMessage, LENGTH_SHORT).show()

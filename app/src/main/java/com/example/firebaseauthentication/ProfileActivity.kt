@@ -24,6 +24,7 @@ class ProfileActivity : AppCompatActivity() {
         val firebaseUser = firebaseAuth.currentUser
         if (firebaseUser!=null){
             textFullname.text = firebaseUser.displayName
+            textEmail.text = firebaseUser.email
         }else{
             startActivity(Intent(this, MainActivity::class.java))
             finish()
