@@ -45,5 +45,10 @@ class ProfileActivity : AppCompatActivity() {
             val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
         }
+        val btn_emergency = findViewById<Button>(R.id.btn_emergency)
+        btn_emergency.setOnClickListener {
+            val intent = Intent(this, EmergencyActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
