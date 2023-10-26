@@ -50,5 +50,10 @@ class ProfileActivity : AppCompatActivity() {
             val intent = Intent(this, EmergencyActivity::class.java)
             startActivity(intent)
         }
+        val btn_reset = findViewById<Button>(R.id.btn_resetpage)
+        btn_reset.setOnClickListener {
+            val intent = Intent(this, ResetPasswordActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
