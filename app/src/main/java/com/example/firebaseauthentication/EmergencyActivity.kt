@@ -22,7 +22,7 @@ class EmergencyActivity : AppCompatActivity() {
             openUrl("https://www.kifjp.org/disaster/news_eng/497")
         }
         imageView.setOnClickListener {
-            openUrl("https://www.navitime.co.jp/category/0502008/47/")
+            openUrl("http://54.199.142.48/wordpress/")
         }
     }
 

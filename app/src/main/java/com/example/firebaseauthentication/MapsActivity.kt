@@ -23,13 +23,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
 
-        Places.initialize(applicationContext,getString(R.string.google_map_api_key))
+        Places.initialize(applicationContext, getString(R.string.google_map_api_key))
         autocompleteFragment = supportFragmentManager.findFragmentById(R.id.autocomplete_fragment)
-            as AutocompleteSupportFragment
+                as AutocompleteSupportFragment
         autocompleteFragment.setPlaceFields(listOf(Place.Field.ID, Place.Field.ADDRESS, Place.Field.LAT_LNG))
-        autocompleteFragment.setOnPlaceSelectedListener(object :PlaceSelectionListener{
+        autocompleteFragment.setOnPlaceSelectedListener(object : PlaceSelectionListener {
             override fun onError(p0: Status) {
-                Toast.makeText(this@MapsActivity,"some Error in Search", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MapsActivity, "some Error in Search", Toast.LENGTH_SHORT).show()
             }
 
             override fun onPlaceSelected(place: Place) {
@@ -67,12 +67,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             R.id.hybrid_map_map -> mGoogleMap?.mapType = GoogleMap.MAP_TYPE_HYBRID
         }
     }
-
-
-
-
+    
 
     override fun onMapReady(googleMap: GoogleMap) {
         mGoogleMap = googleMap
     }
+
 }
