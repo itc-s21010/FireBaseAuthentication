@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">めんそーれ</string>
     <string name="google_map_api_key">AIzaSyAujNEvqM738ndgeYynoiuAX1nCUDDfrmc</string>
+    <string name="options_inquiry">プロフィールヘ</string>
+    <string name="options_translate">翻訳画面へ</string>
+    <string name="options_emergency">緊急画面へ</string>
+    <string name="options_reset">パスワード変更へ</string>
 </resources>
