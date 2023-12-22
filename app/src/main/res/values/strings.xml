@@ -5,4 +5,5 @@
     <string name="options_translate">翻訳画面へ</string>
     <string name="options_emergency">緊急画面へ</string>
     <string name="options_reset">パスワード変更へ</string>
+    <string name="options_maps">マップへ</string>
 </resources>

@@ -21,4 +21,9 @@
         app:showAsAction="never"
         android:title="@string/options_reset"/>
 
+    <item
+        android:id="@+id/mapssdk"
+        app:showAsAction="never"
+        android:title="@string/options_maps"/>
+
 </menu>

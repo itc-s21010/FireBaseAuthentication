@@ -1,5 +1,6 @@
 package com.example.firebaseauthentication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -67,8 +68,30 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, OnPoiClickListener
     private fun changeMap(itemId: Int) {
         when(itemId)
         {
-            R.id.normal_map -> mGoogleMap?.mapType = GoogleMap.MAP_TYPE_NORMAL
-            R.id.hybrid_map_map -> mGoogleMap?.mapType = GoogleMap.MAP_TYPE_HYBRID
+            R.id.optionsInquiry -> {
+                val intent = Intent(
+                    this@MapsActivity, ProfileActivity::class.java
+                )
+                startActivity(intent)
+            }
+            R.id.translation -> {
+                val intent = Intent(
+                    this@MapsActivity, TranslateActivity::class.java
+                )
+                startActivity(intent)
+            }
+            R.id.emergency -> {
+                val intent = Intent(
+                    this@MapsActivity, EmergencyActivity::class.java
+                )
+                startActivity(intent)
+            }
+            R.id.passreset -> {
+                val intent = Intent(
+                    this@MapsActivity, ResetPasswordActivity::class.java
+                )
+                startActivity(intent)
+            }
         }
     }
 
@@ -76,7 +99,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, OnPoiClickListener
         mGoogleMap = googleMap
         googleMap.setOnPoiClickListener(this)
 
-        val okinawa = LatLng(26.2020623, 127.6620562)
+        val okinawa = LatLng(26.2032433, 127.6615413)
         mGoogleMap.addMarker(MarkerOptions().position(okinawa).title("marker"))
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(okinawa, 12f))
     }

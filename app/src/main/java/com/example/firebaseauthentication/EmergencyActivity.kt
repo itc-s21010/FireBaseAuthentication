@@ -15,12 +15,8 @@ class EmergencyActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_emergency)
 
-        button = findViewById(R.id.button)
         imageView = findViewById(R.id.imageView)
 
-        button.setOnClickListener {
-            openUrl("https://www.kifjp.org/disaster/news_eng/497")
-        }
         imageView.setOnClickListener {
             openUrl("http://54.199.142.48/wordpress/")
         }
